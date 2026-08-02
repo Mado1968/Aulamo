@@ -186,13 +186,13 @@ export default function App() {
 
         <div className="relative z-10 max-w-4xl">
           <div className="mb-6 inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-red-600/50 bg-red-600/10 text-red-400 text-xs font-semibold tracking-widest uppercase">
-            Especialistas en Acceso por Cuerda y Fachadas
+            Reformas en general
           </div>
 
           <h1 className="text-5xl sm:text-7xl font-extrabold tracking-tight leading-none mb-6">
-            <span className="text-red-500">Elevamos</span>
+            <span className="text-red-500">Reformas en general</span>
             <br />
-            Cada Edificio
+            fachadas, patios y trabajos verticales
           </h1>
 
           <p className="text-white/60 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mb-10">
@@ -282,7 +282,7 @@ export default function App() {
               />
               <div className="rounded-xl border border-red-600/40 bg-red-600/10 flex items-center justify-center p-6">
                 <p className="text-red-400 font-extrabold text-xl text-center leading-snug">
-                  Excelencia<br />en Cada Altura
+                  Excelencia<br />en cada proyecto.
                 </p>
               </div>
             </div>
@@ -296,10 +296,10 @@ export default function App() {
           <FadeIn delay={120}>
             <p className="text-red-500 text-xs font-bold uppercase tracking-widest mb-4">Sobre Aulamo S.L.</p>
             <h2 className="text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight mb-6">
-              Construido sobre la Experiencia,<br />Impulsado por la Precisión
+               Experiencia<br />y Precisión
             </h2>
             <p className="text-white/60 leading-relaxed mb-5">
-              Aulamo S.L. es un contratista especialista con sede en Madrid y más de 15 años de experiencia en trabajos
+              Aulamo S.L. es una empresa especialista con sede en Sabadell y más de 5 años de experiencia en trabajos
               verticales de edificación. Desde renovaciones complejas de fachadas hasta intervenciones técnicamente exigentes
               con acceso por cuerda, nuestros equipos combinan habilidad certificada con un compromiso inquebrantable con la calidad.
             </p>
@@ -378,9 +378,9 @@ export default function App() {
 
             <div className="space-y-5">
               {[
-                { icon: Phone, label: 'Teléfono', value: '+34 600 000 000' },
-                { icon: Mail, label: 'Correo', value: 'info@aulamosl.com' },
-                { icon: MapPin, label: 'Ubicación', value: 'Madrid, España' },
+                { icon: Phone, label: 'Teléfono', value: '+34 640330998' },
+                { icon: Mail, label: 'Correo', value: 'aulamoobras@hotmail.com' },
+                { icon: MapPin, label: 'Ubicación', value: 'Sabadell, Barcelona' },
               ].map(({ icon: Icon, label, value }) => (
                 <div key={label} className="flex items-center gap-4">
                   <div className="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-lg bg-red-600/15">
