@@ -16,6 +16,7 @@ import {
   Menu,
   X,
 } from 'lucide-react';
+import Carrousel from './carrousel';
 
 const SERVICES = [
   {
@@ -96,6 +97,7 @@ function FadeIn({ children, delay = 0, className = '' }: { children: React.React
 export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [carrouselOpen, setCarrouselOpen] = useState(false);
 
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 40);
@@ -282,9 +284,18 @@ export default function App() {
                 className="rounded-xl w-full object-cover border border-white/10 bg-white/5 p-4"
               />
               <div className="rounded-xl border border-red-600/40 bg-red-600/10 flex items-center justify-center p-6">
-                <p className="text-red-400 font-extrabold text-xl text-center leading-snug">
-                  Excelencia<br />en cada proyecto.
-                </p>
+                <div className="flex flex-col items-center gap-4">
+                  <p className="text-red-400 font-extrabold text-xl text-center leading-snug">
+                    Excelencia<br />en cada proyecto.
+                  </p>
+                  <button
+                    type="button"
+                    onClick={() => setCarrouselOpen(true)}
+                    className="rounded border border-red-500/60 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-red-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-white"
+                  >
+                    Ver proyectos
+                  </button>
+                </div>
               </div>
             </div>
             {/* Decorative dot grid */}
@@ -452,6 +463,8 @@ export default function App() {
           </FadeIn>
         </div>
       </section>
+
+      <Carrousel open={carrouselOpen} onClose={() => setCarrouselOpen(false)} />
 
       {/* ── FOOTER ── */}
       <footer className="border-t border-white/10 py-10 px-6">
