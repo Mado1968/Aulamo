@@ -6,9 +6,18 @@ type MediaItem =
   | { type: 'video'; src: string; alt: string };
 
 const MEDIA: MediaItem[] = [
-  { type: 'image', src: '/images/a1.jpeg', alt: 'Logotipo de Aulamo S.L.' },
-  { type: 'image', src: '/images/a2.jpeg', alt: 'Proyecto de Aulamo S.L.' },
-  { type: 'image', src: '/images/a3.jpeg', alt: 'Trabajo de Aulamo S.L.' },
+  { type: 'image', src: '/images/aulamo/au_01_ok.jpg', alt: '' },
+  { type: 'image', src: '/images/aulamo/au_02_ok.jpg', alt: '' },
+  { type: 'image', src: '/images/aulamo/au_03_ok.jpg', alt: '' },
+  { type: 'image', src: '/images/aulamo/au_04_ok.jpg', alt: '' },
+  { type: 'image', src: '/images/aulamo/au_05_ok.jpg', alt: '' },
+  { type: 'image', src: '/images/aulamo/au_06_ok.jpg', alt: '' },
+  { type: 'image', src: '/images/aulamo/au_07_ok.jpg', alt: '' },
+  { type: 'video', src: '/videos/vau_01.mp4', alt: 'Vídeo de proyecto 1' },
+  { type: 'video', src: '/videos/vau_02.mp4', alt: 'Vídeo de proyecto 2' },
+  { type: 'video', src: '/videos/vau_03.mp4', alt: 'Vídeo de proyecto 3' },
+  
+  
 ];
 
 type CarrouselProps = {
@@ -93,9 +102,12 @@ export default function Carrousel({ open, onClose }: CarrouselProps) {
               src={activeMedia.src}
               aria-label={activeMedia.alt}
               controls
+              autoPlay
+              muted
+              loop
               playsInline
               preload="metadata"
-              className="max-h-full max-w-full"
+              className="h-full w-full object-contain"
             />
           )}
 

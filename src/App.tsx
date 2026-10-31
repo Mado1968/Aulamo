@@ -118,7 +118,7 @@ export default function App() {
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <a href="#hero" className="flex items-center gap-3">
-            <img src="/images/aulamo/a1.jpeg" alt="Aulamo S.L." className="h-10 w-auto" />
+            <img src="/images/a1.jpeg" alt="Aulamo S.L." className="h-10 w-auto" />
           </a>
 
           {/* Desktop nav */}
@@ -181,7 +181,7 @@ export default function App() {
       >
         {/* Background graphic */}
         <div className="absolute inset-0 flex items-center justify-center opacity-10 pointer-events-none select-none">
-          <img src="/images/aulamo/a2.jpeg" alt="" className="w-[70vmin] max-w-2xl" />
+          <img src="/images/a2.jpeg" alt="" className="w-[70vmin] max-w-2xl" />
         </div>
         {/* Red top accent line */}
         <div className="absolute top-0 inset-x-0 h-1 bg-red-600" />
@@ -217,6 +217,13 @@ export default function App() {
             >
               Contáctenos
             </a>
+            <button
+              type="button"
+              onClick={() => setCarrouselOpen(true)}
+              className="rounded border border-red-500/60 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-red-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-white"
+            >
+              Fotos y Videos de Proyectos
+            </button>
           </div>
         </div>
 
@@ -274,12 +281,12 @@ export default function App() {
           <FadeIn className="relative">
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="/images/aulamo/a2.jpeg"
+                src="/images/a2.jpeg"
                 alt="Icono de construcción"
                 className="rounded-xl col-span-1 row-span-2 w-full h-full object-cover border border-white/10"
               />
               <img
-                src="/images/aulamo/a3.jpeg"
+                src="/images/a3.jpeg"
                 alt="Silueta de edificio"
                 className="rounded-xl w-full object-cover border border-white/10 bg-white/5 p-4"
               />
@@ -293,7 +300,7 @@ export default function App() {
                     onClick={() => setCarrouselOpen(true)}
                     className="rounded border border-red-500/60 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-red-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-white"
                   >
-                    Ver proyectos
+                    Fotos y Videos de Proyectos
                   </button>
                 </div>
               </div>
@@ -358,7 +365,7 @@ export default function App() {
       {/* ── CTA BAND ── */}
       <section className="py-24 px-6 border-t border-white/10">
         <FadeIn className="max-w-3xl mx-auto text-center">
-          <img src="/images/aulamo/a3.jpeg" alt="" className="mx-auto h-20 w-auto mb-8 opacity-70" />
+          <img src="/images/a3.jpeg" alt="" className="mx-auto h-20 w-auto mb-8 opacity-70" />
           <h2 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-5">
             ¿Listo para Transformar<br />Su Edificio?
           </h2>
@@ -469,7 +476,7 @@ export default function App() {
       {/* ── FOOTER ── */}
       <footer className="border-t border-white/10 py-10 px-6">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
-          <img src="/images/aulamo/a1.jpeg" alt="Aulamo S.L." className="h-8 w-auto" />
+          <img src="/images/a1.jpeg" alt="Aulamo S.L." className="h-8 w-auto" />
           <p className="text-white/30 text-sm text-center">
             &copy; {new Date().getFullYear()} Aulamo S.L. — Todos los derechos reservados.
           </p>
