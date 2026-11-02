@@ -33,9 +33,9 @@ const SERVICES = [
   },
   {
     icon: Anchor,
-    title: 'Trabajo con Acceso por Cuerda',
+    title: 'Trabajo en altura / vertical',
     description:
-      'Técnicos certificados IRATA en acceso por cuerda para inspecciones, mantenimiento e instalación en altura — alcanzando donde el acceso convencional no puede llegar.',
+      'Técnicos certificados IRATA en acceso para inspecciones, mantenimiento e instalación en altura — alcanzando donde el acceso convencional no puede llegar.',
   },
   {
     icon: Layers,
@@ -199,7 +199,7 @@ export default function App() {
           </h1>
 
           <p className="text-white/60 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mb-10">
-            Aulamo S.L. ofrece reformas expertas, cerramientos tipo rain-screen, trabajos con acceso por cuerda,
+            Aulamo S.L. ofrece reformas expertas, cerramientos tipo rain-screen, trabajos verticales ,
             fachadas de edificios y transformaciones de patios interiores — desde el nivel del suelo hasta el punto más alto.
           </p>
 
@@ -320,7 +320,7 @@ export default function App() {
             <p className="text-white/60 leading-relaxed mb-5">
               Aulamo S.L. es una empresa especialista con sede en Sabadell y más de 5 años de experiencia en trabajos
               verticales de edificación. Desde renovaciones complejas de fachadas hasta intervenciones técnicamente exigentes
-              con acceso por cuerda, nuestros equipos combinan habilidad certificada con un compromiso inquebrantable con la calidad.
+              con trabajo vertical(altura), nuestros equipos combinan habilidad certificada con un compromiso inquebrantable con la calidad.
             </p>
             <p className="text-white/60 leading-relaxed mb-8">
               Operamos en edificios residenciales, comerciales y patrimoniales — adaptando nuestro enfoque a cada
