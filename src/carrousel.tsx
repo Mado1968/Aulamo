@@ -47,11 +47,11 @@ const MEDIA: MediaItem[] = [
   { type: 'image', src: '/images/aulamo/au_39_ok.jpg', alt: '' },
   { type: 'image', src: '/images/aulamo/au_40_ok.jpg', alt: '' },
   { type: 'image', src: '/images/aulamo/au_41_ok.jpg', alt: '' },
-  { type: 'image', src: '/images/aulamo/au_42_ok.jpg', alt: '' },
-  { type: 'image', src: '/images/aulamo/au_43_ok.jpg', alt: '' },
+  
+  
   { type: 'image', src: '/images/aulamo/au_44_ok.jpg', alt: '' },
   { type: 'image', src: '/images/aulamo/au_45_ok.jpg', alt: '' },
-  { type: 'image', src: '/images/aulamo/au_46_ok.jpg', alt: '' },
+  
   { type: 'image', src: '/images/aulamo/au_47_ok.jpg', alt: '' },
   { type: 'image', src: '/images/aulamo/au_48_ok.jpg', alt: '' },
   { type: 'image', src: '/images/aulamo/au_49_ok.jpg', alt: '' },
@@ -69,7 +69,7 @@ const MEDIA: MediaItem[] = [
   { type: 'image', src: '/images/aulamo/au_61_ok.jpg', alt: '' },
   { type: 'image', src: '/images/aulamo/au_62_ok.jpg', alt: '' },
   { type: 'image', src: '/images/aulamo/au_63_ok.jpg', alt: '' },
-  { type: 'image', src: '/images/aulamo/au_64_ok.jpg', alt: '' },
+  
   { type: 'image', src: '/images/aulamo/au_65_ok.jpg', alt: '' },
   { type: 'image', src: '/images/aulamo/au_67_ok.jpg', alt: '' },
   { type: 'image', src: '/images/aulamo/au_68_ok.jpg', alt: '' },
