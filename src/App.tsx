@@ -398,7 +398,7 @@ export default function App() {
             <div className="space-y-5">
               {[
                 { icon: Phone, label: 'Teléfono', value: '+34 640330998' },
-                { icon: Mail, label: 'Correo', value: 'aulamoobras@hotmail.com' },
+                { icon: Mail, label: 'Correo', value: 'hola@aulamoreformas.es' },
                 { icon: MapPin, label: 'Ubicación', value: 'Sabadell, Barcelona' },
               ].map(({ icon: Icon, label, value }) => (
                 <div key={label} className="flex items-center gap-4">
